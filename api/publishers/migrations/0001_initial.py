@@ -18,6 +18,7 @@ class Migration(migrations.Migration):
                 ('DOAJurl', models.CharField(max_length=300, blank=True)),
                 ('DOAJapproved', models.BooleanField(default=False)),
                 ('Predatory', models.BooleanField(default=False)),
+                ('Hybrid', models.BooleanField(default=False)),
                 ('OpenAccess', models.BooleanField(default=False)),
                 ('OASPAapproved', models.BooleanField(default=False)),
             ],

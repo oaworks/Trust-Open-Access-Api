@@ -6,6 +6,7 @@ class Publisher(models.Model):
 	DOAJurl = models.CharField(max_length=300, blank=True)
 	DOAJapproved = models.BooleanField(blank=True, default=False)
 	Predatory = models.BooleanField(blank=True, default=False)
+	Hybrid = models.BooleanField(blank=True, default=False)
 	OpenAccess = models.BooleanField(blank=True, default=False)
 	OASPAapproved = models.BooleanField(blank=True, default=False)
 
